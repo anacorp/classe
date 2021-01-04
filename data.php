@@ -9,13 +9,13 @@ class Data {
 
     public function apresentar (){
 
-        echo "{$this->dia} / {$this->mes} / {$this->ano}" ;
+        return "{$this->dia} / {$this->mes} / {$this->ano}" ;
 
     }
 }
 
 $d1 = new Data();
- $d1->apresentar();
+echo $d1->apresentar();
 
 
 ?>
