@@ -8,7 +8,7 @@
 
         public function apresentar(){
 
-            echo "<br/> Nome: {$this->nome} <br/>";
+            echo "<br/> Nome: {$this->nome} <br/>     Idade: {$this->idade}";
 
         }
 
